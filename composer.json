@@ -1,0 +1,23 @@
+{
+    "name": "gurkanatik/metacritic-game-scraper",
+    "description": "A PHP library for scraping game information from Metacritic",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "voku/simple_html_dom": "^4.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MetacriticScraper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MetacriticScraper\\Tests\\": "tests/"
+        }
+    }
+}
